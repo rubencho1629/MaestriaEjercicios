@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Butacas - UNIR-CINEMA</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Contenedor Principal -->
+<div class="container my-5">
+
+    <!-- Título -->
+    <h1 class="text-center mb-4">Reserva de Butacas - UNIR-CINEMA</h1>
+
+    <!-- Pantalla del cine -->
+    <div class="screen bg-dark text-white text-center p-2 mb-4">
+        <strong>Pantalla</strong>
+    </div>
+
+    <!-- Selección de butacas -->
+    <div class="seat-selection text-center">
+        <div class="row justify-content-center">
+            <!-- Generación de filas de butacas -->
+        
+            <div class="col-8">
+                <div class="row mb-3">
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                    <div class="col seat"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Formulario de Selección de Asientos -->
+    <div class="form-container my-4">
+        <form>
+            <div class="form-group row justify-content-center">
+                <label for="numAsientos" class="col-form-label mr-2">Número de Asientos:</label>
+                <input type="number" id="numAsientos" class="form-control col-2" min="1" max="10" placeholder="1-10">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Reservar Butacas</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white text-center py-3">
+    <p>UNIR-CINEMA | La mejor experiencia en cine para toda la familia</p>
+    <p>Ubicación: Av. Principal 123, Ciudad | Teléfono: +123 456 7890</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

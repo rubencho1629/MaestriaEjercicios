@@ -1,0 +1,38 @@
+/* Estilos para la pantalla del cine */
+.screen {
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+/* Estilos para las butacas */
+.seat {
+    width: 40px;
+    height: 40px;
+    background-color: #28a745;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.seat:hover {
+    background-color: #218838;
+}
+
+.seat.selected {
+    background-color: #ffc107;
+}
+
+/* Estilos del formulario */
+.form-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
